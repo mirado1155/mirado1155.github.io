@@ -111,21 +111,18 @@ li a:hover {
     border-bottom: 2px solid #a1a1a1;
 }
 
-
 ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-bottom: 2em;
     padding: .8em, 0 , 1em, 0;
-    
 }
 
 li {
     font-size: 1.3em;
     margin-bottom: 1.2em;
 }
-
 
 .main_text {
     margin-bottom: 6.5em;
@@ -134,16 +131,16 @@ li {
 
 }
 
+.main_text:hover {
+    background-color: #3a3a3aee;
+    color: white;
+    transition: .2s ease-in;
+}
+
 main p, footer {
     background-color:#2e2e2e;
     color:#f8f8f8;
     margin:auto;
-}
-
-main p:hover {
-    background-color: #3a3a3aee;
-    color: white;
-    transition: .2s ease-in;
 }
 
 footer {
@@ -157,7 +154,6 @@ footer p, footer a {
 #copyright {
     display: inline;
 }
-
 
 @media only screen and (max-width: 310px) {
     .to_remove {
